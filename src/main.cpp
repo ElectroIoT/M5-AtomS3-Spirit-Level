@@ -113,7 +113,7 @@ static void drawBubble() {
   snprintf(b, sizeof b, "%+.1f  %+.1f", bx, by);
   txt(b, 64, 113, 1, C_TEXT);
   if (total <= LEVEL_DEG) txt("LEVEL", 64, 8, 1, C_GOOD);
-  else txt("x    y  (deg)", 64, 8, 1, C_DIM);
+  else txt("x / y  degrees", 64, 8, 1, C_DIM);
 }
 
 static void drawTube() {
@@ -134,9 +134,9 @@ static void drawTube() {
   snprintf(b, sizeof b, "%+.1f", a);
   txt(b, 58, 92, 3, col);
   txt("o", 112, 84, 2, col);
-  if (flat) txt("stand it up", 64, 119, 1, C_WARN);
-  else if (fabsf(a) <= LEVEL_DEG) txt("LEVEL", 64, 119, 1, C_GOOD);
-  else txt("screen toward you", 64, 119, 1, C_DIM);
+  if (flat) txt("stand it up", 64, 106, 1, C_WARN);
+  else if (fabsf(a) <= LEVEL_DEG) txt("LEVEL", 64, 106, 1, C_GOOD);
+  else txt("screen toward you", 64, 106, 1, C_DIM);
 }
 
 static void drawAngle() {
