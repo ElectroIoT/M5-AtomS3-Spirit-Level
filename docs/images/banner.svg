@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="M5 AtomS3 Spirit Level">
+  <rect width="1280" height="320" rx="24" fill="#0c0c18"/>
+  <text x="56" y="132" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="64" font-weight="800" fill="#f1f4ff">AtomS3 Spirit Level</text>
+  <text x="58" y="178" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#8c98b8">Bubble level, tube level and inclinometer in your pocket.</text>
+  <text x="58" y="226" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#3cdc78">M5Stack AtomS3  &#183;  MPU6886  &#183;  zero it anywhere  &#183;  no setup</text>
+  <!-- bubble -->
+  <g transform="translate(760 40)">
+    <circle cx="120" cy="120" r="110" fill="#06080f" stroke="#3cdc78" stroke-width="5"/>
+    <circle cx="120" cy="120" r="56" fill="none" stroke="#28304a" stroke-width="3"/>
+    <circle cx="120" cy="120" r="22" fill="none" stroke="#46547a" stroke-width="3"/>
+    <line x1="10" y1="120" x2="230" y2="120" stroke="#28304a" stroke-width="3"/>
+    <line x1="120" y1="10" x2="120" y2="230" stroke="#28304a" stroke-width="3"/>
+    <circle cx="120" cy="120" r="24" fill="#3cdc78"/><circle cx="112" cy="112" r="7" fill="#fff"/>
+  </g>
+  <!-- tube -->
+  <g transform="translate(1030 110)">
+    <rect x="0" y="20" width="220" height="64" rx="32" fill="#06080f" stroke="#50c8ff" stroke-width="5"/>
+    <line x1="88" y1="30" x2="88" y2="74" stroke="#28304a" stroke-width="3"/><line x1="132" y1="30" x2="132" y2="74" stroke="#28304a" stroke-width="3"/>
+    <ellipse cx="124" cy="52" rx="30" ry="20" fill="#50c8ff"/><circle cx="114" cy="45" r="5" fill="#fff"/>
+  </g>
+</svg>
