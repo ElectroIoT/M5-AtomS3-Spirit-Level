@@ -37,7 +37,7 @@ Hold the screen 0.6 s and release to **zero** the current mode on a surface you 
 Hold 2.2 s and release to reset. Zero points are remembered after power off.
 
 No Wi-Fi, no setup. For the **AtomS3 with display + MPU6886** (not AtomS3 Lite).
-A handy pocket tool, accurate to about half a degree; not a calibrated instrument.
+A handy pocket tool: zero it on a surface you trust. Not a calibrated instrument.
 
 Source and guide: https://github.com/ElectroIoT/M5-AtomS3-Spirit-Level
 ```

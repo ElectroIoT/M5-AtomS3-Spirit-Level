@@ -56,7 +56,7 @@ Details and download-mode tips: [docs/FLASHING.md](docs/FLASHING.md).
 
 ## Accuracy
 
-It reads the built-in MPU6886 accelerometer, which is good to roughly half a degree out of the box.
+It reads the built-in MPU6886 accelerometer. I have **not measured its accuracy** against a calibrated level.
 **Zero it on a surface you trust** (a table you checked with a real level) for best results.
 It is a handy pocket tool, not a calibrated instrument.
 
